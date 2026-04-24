@@ -15,6 +15,10 @@ Node is managed via nvm. Load it before running any commands:
 export NVM_DIR="$HOME/.nvm" && source "$NVM_DIR/nvm.sh"
 ```
 
+## Tools
+
+- **gh** — installed at `~/bin/gh` (not on PATH). Run `~/bin/gh auth setup-git` before pushing, then use `git push` as normal.
+
 ## Commands
 
 ```bash
